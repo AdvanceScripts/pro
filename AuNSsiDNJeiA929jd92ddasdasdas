@@ -1,6 +1,7 @@
 local whitelisted = {
-    "275535162",
-    "1037787899"
+    "275535162", --> Owner
+    "1037787899", --> Shock
+    "1599834573" --> Dev
 }
 for _, Player in pairs(whitelisted) do
     if game.Players.LocalPlayer.UserId == Player then --> Checking if UserID is in the table
