@@ -2,7 +2,7 @@ local whitelisted = {
     "275535162", --> Kin
     "1037787899", --> Shock
     "1599834573",--> Dev
-    "1285777797," --> Moon
+    "1285777797", --> Moon
     "160458279" --> Hack
 }
 for _, Player in pairs(whitelisted) do
